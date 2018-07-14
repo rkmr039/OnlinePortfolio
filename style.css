@@ -1,0 +1,101 @@
+/* CSS Document */
+*
+{
+	margin:0;
+	padding:0;
+}
+
+body
+{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d7d7d7+0,201253+100 */
+background: #d7d7d7; /* Old browsers */
+background: -moz-linear-gradient(top, #d7d7d7 0%, #201253 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #d7d7d7 0%,#201253 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #d7d7d7 0%,#201253 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d7d7d7', endColorstr='#201253',GradientType=0 ); /* IE6-9 */
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+#container
+{
+	width:780px;
+	padding:30px;
+	margin: 40px auto;
+	background-color:white;
+}
+.shadow
+{
+	-webkit-box-shadow: 0 0 30px 0 #333333;
+	box-shadow: 0 0 30px 0 #333333;
+}
+header
+{
+	text-align:center;
+	margin:10px 0 0 0;
+}
+header .tagline
+{
+	font-size:18px;
+}
+header .title
+{
+	font-size:72px;
+}
+ul#nav 
+{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	text-align:center;
+	margin:15px 0 30px 0;
+	padding:0px;
+	height: 55px;
+}
+ul#nav  li
+{
+	list-style:none;
+	float:left;	
+}
+ul#nav a
+{
+	text-decoration:none;
+	padding:15px;
+	margin-left:5px;
+	width:118px;
+	display:block;
+}
+ul#nav li a:hover
+{
+	background-color:black;
+	color:white;
+}
+section h1
+{
+	font-size:28px;
+	color:434343;
+	font-weight:normal;
+} 
+section a
+{
+	font-size:14px;
+	line-height:24px;
+	color:green;text-decoration:none;
+}
+section a:hover{
+	color:blue;text-decoration:underline;
+}
+.floatright
+{
+	float:right;
+}
+footer
+{
+	background-color:#bee08e;
+	padding:18px;
+	margin-top:30px;
+}
+footer .logo
+{
+	margin-top:-18px;
+}
+
+	
+
